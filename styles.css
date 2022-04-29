@@ -60,6 +60,10 @@ footer {
     
 
 }
+a{
+    color: white;
+    text-decoration:none;
+}
 
 h1{
     text-align: center;
