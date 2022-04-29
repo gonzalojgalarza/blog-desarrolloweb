@@ -1,0 +1,75 @@
+body{
+    font-family: roboto;
+    background-color: gray;
+    background-image: url(./img/fondo.jpg);
+}
+.titulo{
+    text-align: center;
+    font-family: satisfy;
+    font-size: 400%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ 
+ /* Para absorver tamaño extra de la caja de fotos */
+  * {
+    box-sizing: border-box;
+}
+
+.columna {
+    float: left;
+    width: 20%;
+    padding-right: 5px;
+}
+
+.fila::after {
+   
+    clear: both;
+    display: table;
+}
+
+img {
+    /* Para que sea responsive */
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50%;
+    background-color: black;
+    color: white;
+    
+
+}
+
+h1{
+    text-align: center;
+    font-family: satisfy;
+    font-size: 400%;
+
+}
+
+h3{
+      text-align: center;
+      font-family: satisfy;
+      font-size: 150%;
+  }
