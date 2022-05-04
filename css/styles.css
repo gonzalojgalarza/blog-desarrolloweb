@@ -1,7 +1,8 @@
-body{
+body, html{
     font-family: roboto;
     background-color: gray;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
+    height: 100%;
 }
 .titulo{
     text-align: center;
@@ -39,16 +40,20 @@ ul {
     float: left;
     width: 20%;
     padding-right: 5px;
+    
 }
 
 .fila::after {
    
     clear: both;
     display: table;
+    
 }
 
 img {
     /* Para que sea responsive */
+    display:block;
+    column-span:all;
     width: 100%;
 }
 
@@ -58,6 +63,10 @@ footer {
     background-color: black;
     color: white;
     
+    bottom:0;
+    clear:both;
+    width:100%;
+    height:100px;
 
 }
 a{
@@ -75,5 +84,18 @@ h1{
 h3{
       text-align: center;
       font-family: satisfy;
-      font-size: 150%;
+      font-size: 2vw;
+      
   }
+
+h4{
+    font-size: 2vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 1%;
+    margin-left: 10%;
+
+}
+.round{
+    border: 1px solid gray;
+   width: 280px;
+}
