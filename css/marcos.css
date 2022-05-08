@@ -1,0 +1,16 @@
+body, html{
+    font-family: roboto;
+    background-image: url(../img/fondot.jpg);
+    height: 100%;
+}
+
+img{
+    margin:10px auto;
+    display:block;
+    max-width: 300px;
+}
+
+h1{
+    font-family: satisfy;
+    text-align: center;
+}
