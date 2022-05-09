@@ -7,7 +7,9 @@ body, html{
 .titulo{
     text-align: center;
     font-family: satisfy;
-    font-size: 400%;
+    font-size: 600%;
+    -webkit-text-stroke: 1px white;
+    color: black; 
 }
 
 ul {
