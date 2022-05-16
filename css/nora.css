@@ -37,6 +37,26 @@
     text-align: justify;
 }
 
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li{
+    display: inline-block;
+    align-content: center;
+}
+
+.box ul li a {
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.box ul li a:hover {
+    transform: scale(1.1);
+}
 a{
     color: white;
     text-decoration:none;
