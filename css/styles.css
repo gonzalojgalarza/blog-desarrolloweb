@@ -4,7 +4,7 @@ body, html{
     background-image: url(../img/fondo.jpg);
     height: 100%;
 }
-.titulo{
+.title{
     text-align: center;
     font-family: satisfy;
     font-size: 600%;
@@ -38,17 +38,17 @@ ul {
     box-sizing: border-box;
 }
 
-.columna {
+.column {
     float: left;
     width: 20%;
     padding-right: 5px;
     overflow:hidden;
 }
-.columna:hover{
+.column:hover{
     -webkit-transform:scale(0.9);transform:scale(0.9);
 }
 
-.fila::after {
+.row::after {
    
     clear: both;
     display: table;
