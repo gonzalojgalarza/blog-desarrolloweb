@@ -52,4 +52,11 @@ body {
 }
 a{
     text-decoration: none;
+    color: gray;
 }
+.icons{
+    display:flex;
+    padding: 10px;
+}
+
+
