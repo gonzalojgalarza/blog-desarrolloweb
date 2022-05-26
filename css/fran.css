@@ -1,6 +1,15 @@
+body{
+    margin: 0;
+    position: relative;
+    padding-bottom: 12em;/*espacio entre footer*/
+    min-height: 100vh; /*toma tamaño maximo*/
+}
+
+
 .fondo {
-    background: url('../img/Koby.jpg') no-repeat;
-    background-size: contain;
+    background: url('../img/Koby.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Century Gothic', sans-serif;
 }
 
@@ -18,24 +27,29 @@
     color: gray; /*color letra*/
 }
 
+
 .contenido_uno{
-    margin-right: 70%; /*margen de derecha*/
+    margin-right: 55%; /*margen de derecha*/
+    margin-left: 1%;
     color: white; /*color letra*/
+    
 }
 
 .contenido_dos{
-    margin-right: 75%; /*margen de derecha*/
+    margin-right: 60%; /*margen de derecha*/
+    margin-left: 1%;
     color: white; /*color letra*/
 }
 
 .contenido_tres{
-    margin-right: 70%; /*margen de derecha*/
+    margin-right: 55%; /*margen de derecha*/
+    margin-left: 1%;
     color: white; /*color letra*/
 }
 
-.table{  
-    margin-left: 65em; /*margen izquierdo*/
-    margin-top: -45%; /*margen de top*/
+.table {          
+    overflow-x: auto;
+    margin-left: 1%;
 }
 
 td, th {
@@ -46,14 +60,15 @@ td, th {
   }
 
 
-footer {
-    text-align: center;
-    margin-top: -0.5%;    
-    margin-left: -1%; /*margen de izquierda*/
+.footer {
     background-color: black;
     color: white;
-    width: 101.6%; /*ancho*/
-    height: 100px; /*alto*/
+
+    
+    text-align: center;
+    position: absolute; /*quieto*/
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p {
@@ -65,3 +80,11 @@ footer {
     color: white;
     text-decoration:none;
 }
+
+@media (min-width < 50%)  { 
+    /*celu*/
+    }
+
+@media (min-width:1281px) { 
+    /*pc*/ 
+    }
