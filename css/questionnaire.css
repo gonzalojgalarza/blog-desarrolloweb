@@ -1,0 +1,21 @@
+form {
+    border: 1px solid #7DA5E0;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    
+label {
+    color: #7DA5E0;
+    }
+    
+input {
+    color: #000000;
+    }
+
+.preguntas{
+    margin: 15% 15% 15% 15%;
+    text-align: center;
+}
