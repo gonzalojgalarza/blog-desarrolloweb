@@ -2,27 +2,107 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario de Grupo</title>
-    <link rel="stylesheet" href="css/questionnaire.css">
+    <title>Game</title>
+    <link rel="stylesheet" href="./css/questionnaire.css">
+    <link rel="stylesheet" href="./js/questionnaire.js">
+
 </head>
 <body>
-    <form action="">
-        <div class="preguntas">
-            <label for="">¿Cuántos integrantes tiene el grupo? (Ingrese valor numérico)</label>
-            <input type="text" name="" id=""><br>
-            <label for="">¿Qué integrante practica Paddel?</label>
-            <input type="text" name="" id=""><br>
-            <label for="">¿Qué integrante es fanático de Kobe Bryant?</label>
-            <input type="text" name="" id=""><br>
-            <label for="">¿A qué integrante le gusta la escritura?</label>
-            <input type="text" name="" id=""><br>
-            <label for="">¿Quién conoce de servidores y redes?</label>
-            <input type="text" name="" id=""><br>
-            <label for="">¿Quién se especializa en Backend?</label>
-            <input type="text" name="" id=""><br>
-        </div>
-    </form>
+    <header>
+        <h1>QUIZ GAME</h1>
+        <p>Juego de preguntas</p>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>1 - ¿Cuántos integrantes tiene el grupo? (Ingrese valor numérico)</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 3
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 4
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 5
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2 - ¿Qué integrante practica Paddel?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Nora Barria
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Gonzalo Galarza
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Maria Eizayaga
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3 - ¿Qué integrante es fanático de Kobe Bryant?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Marcos Gutierrez
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Gonzalo Galarza
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Francisco Ceccoli
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4 - ¿A qué integrante le gusta la escritura?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Marcos Gutierrez
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Maria Eizayaga
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Nora Barria
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5 - ¿Quién conoce de servidores y redes?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Gonzalo Galarza
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Francisco Ceccoli
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Maria Eizayaga
+            </label>
+        </section>
+        <section id="p5">
+            <h3>6 - ¿Quién se especializa en Backend?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Francisco Ceccoli
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> Marcos Gutierrez
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> Maria Eizayaga
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+        
+    </div>
+    
+    <div id="volver">
+        <button><a href=./main.html>Volver</a></button>
+    </div>
+   
+    
+    <script src="./js/questionnaire.js"></script>
+
 </body>
+
+
 </html>
+
+
