@@ -36,6 +36,15 @@ function corregir(){
     }
 
     document.getElementById("resultado").innerHTML = cantidad_correctas;
+
+    if (cantidad_correctas <= 2) {
+        alert("Tomate un tiempo para ver nuestro blog y conocernos mejor. Hasta pronto!")
+    }
+    if(cantidad_correctas >= 10){
+        alert("¡Felicitaciones! Obtuvo el máximo puntaje")
+    }
+    
+
 }
 
 
