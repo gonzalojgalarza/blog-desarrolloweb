@@ -1,6 +1,6 @@
 
 //arreglo que contiene las respuestas correctas
-let correctas = [3,1,3,3,1,2];
+let correctas = [1,3,3,1,2];
 
 //arreglo donde se guardan las respuestas del usuario
 let opcion_elegida=[];
@@ -31,7 +31,7 @@ function corregir(){
     cantidad_correctas = 0;
     for(i=0; i < correctas.length;i++){
         if(correctas[i]==opcion_elegida[i]){
-            cantidad_correctas = cantidad_correctas + 2;
+            cantidad_correctas = cantidad_correctas + 2; 
         }
     }
 
