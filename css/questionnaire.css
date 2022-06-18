@@ -47,6 +47,7 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 button:hover{
@@ -64,3 +65,12 @@ h2{
 }
 
 
+.volver a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.volver a:hover{    
+    color: #fff;
+}
