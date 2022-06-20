@@ -56,6 +56,10 @@ a{
 }
 .icons{
     display:flex;
-    padding: 10px;
+    padding: 8px;  
+    
 }
-
+.volver{
+    margin-top: 90px;
+    padding: 19cm
+}
