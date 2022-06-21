@@ -1,8 +1,8 @@
 body, html{
     font-family: roboto;
-    background-color: gray;
     background-image: url(../img/fondo.jpg);
     height: 100%;
+    background-repeat: no-repeat;
 }
 .title{
     text-align: center;
@@ -64,7 +64,6 @@ img {
 
 footer {
     text-align: center;
-    margin-top: 50%;
     background-color: black;
     color: white;
     
@@ -139,4 +138,9 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 20px;
+
+}
+#questionnaire{
+    width: 20%; 
+    margin-top: 22cm;
 }
