@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../blog-desarrolloweb/img/navicon.png">
     <title>Nuestro Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +16,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
     <h1 class="title">Nuestro blog</h1>
-    <p>Este espacio fue creado en el marco de la materia "Desarrollo Web" a cargo de la profesora Cristina Ferro del
+    <p id="pmain">Este espacio fue creado en el marco de la materia "Desarrollo Web" a cargo de la profesora Cristina Ferro del
         Instituto de Formación Tecnica Superior del Gobierno de la Ciudad de Buenos Aires.</p>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="default.asp">Inicio</a></li>
-            <li><a href="news.asp">Contacto</a></li>
-        </ul>
-    </nav>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                Desarrollo Web
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="//github.io/jo_geek" target="_blank">Inicio</a>
+              <a href="http://stackoverflow.com/users/4084003/" target="_blank">Contacto</a>
+              <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Desarrollo</a>
+              
+            </div>
+          </div>
 
     <section>
         
@@ -53,7 +73,7 @@
                     <h3>Francisco Ceccoli</h3>
                     <div class="round">
                         <p>
-                            Especialidad: Licenciatura en Ciencia de datos: Matemática / Computación / Datos<br>
+                            Especialidad: Licenciatura en Ciencia de datos<br>
                             <br>Frase: "The Office, temporada 7, episodio 19, minuto 14:45"
                         </p>
                     </div>
@@ -101,16 +121,18 @@
 
         </div>
 
-    </section>
+            
 
-    <div>
+    </section>
+    <div >
         <button id="questionnaire"><a href=questionnaire.html>Cuestionario</a></button>
     </div>
+    
 
     <footer>
 
-        <p>Autores: Gonzalo Galarza, Nora Barria, Marcos Gutierrez, Francisco Ceccoli, Maria Eizayaga</p>
-        <p><a href="DesarroloWeb@ifts.com.ar">DesarrolloWeb@ifts.com.ar</a></p>
+        <h5>Autores: Gonzalo Galarza, Nora Barria, Marcos Gutierrez, Francisco Ceccoli, Maria Eizayaga</h5>
+        <h5><a href="DesarroloWeb@ifts.com.ar">DesarrolloWeb@ifts.com.ar</a></h5>
 
     </footer>
 
